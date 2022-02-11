@@ -134,3 +134,10 @@ INTERNAL_IPS = [
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
+
+# 개발자가 구성한 정적파일들의 폴더 경로
+STATIC_ROOT = BASE_DIR / 'static'
+
+# 사용자가 업로드한 정적파일폴더 경로
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
